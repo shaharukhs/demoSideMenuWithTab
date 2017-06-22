@@ -7,19 +7,35 @@
 //
 
 import UIKit
+import InteractiveSideMenu
 
-class FirstViewController: UIViewController {
+class FirstViewController:UIViewController, SideMenuItemContent {
 
 	override func viewDidLoad() {
 		super.viewDidLoad()
-		// Do any additional setup after loading the view, typically from a nib.
+		
+		
+		
 	}
-
+	
 	override func didReceiveMemoryWarning() {
 		super.didReceiveMemoryWarning()
 		// Dispose of any resources that can be recreated.
 	}
 
+	/*
+	Show menu on click if connected tab bar controller adopts proper protocol.
+	*/
+	@IBAction func openMenu(_ sender: UIButton) {
+		
+		if let menuItemViewController = self.tabBarController as? SideMenuItemContent {
+			menuItemViewController.showSideMenu()
+		}
+		
+//		if let navigationViewController = self.navigationController as? SideMenuItemContent {
+//			navigationViewController.showSideMenu()
+//		}
+	}
 
 }
 

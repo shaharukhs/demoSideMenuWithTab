@@ -7,15 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04D495850507F0B9CEB17398 /* Pods_tabBarSideMenu.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D77F61515E1B38A8BB5EE4B /* Pods_tabBarSideMenu.framework */; };
 		C28158A61EFBA338000B7EB3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28158A51EFBA338000B7EB3 /* AppDelegate.swift */; };
 		C28158A81EFBA338000B7EB3 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28158A71EFBA338000B7EB3 /* FirstViewController.swift */; };
 		C28158AA1EFBA338000B7EB3 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28158A91EFBA338000B7EB3 /* SecondViewController.swift */; };
 		C28158AD1EFBA338000B7EB3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C28158AB1EFBA338000B7EB3 /* Main.storyboard */; };
 		C28158AF1EFBA338000B7EB3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C28158AE1EFBA338000B7EB3 /* Assets.xcassets */; };
 		C28158B21EFBA338000B7EB3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C28158B01EFBA338000B7EB3 /* LaunchScreen.storyboard */; };
+		C28158BA1EFBA494000B7EB3 /* sideMenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28158B91EFBA494000B7EB3 /* sideMenuVC.swift */; };
+		C28158BC1EFBA855000B7EB3 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28158BB1EFBA855000B7EB3 /* HomeViewController.swift */; };
+		C28158BE1EFBA9D5000B7EB3 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28158BD1EFBA9D5000B7EB3 /* TabBarViewController.swift */; };
+		C28158C01EFBD81B000B7EB3 /* SubView1VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28158BF1EFBD81B000B7EB3 /* SubView1VC.swift */; };
+		C28158C21EFBD82E000B7EB3 /* SubView2VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28158C11EFBD82E000B7EB3 /* SubView2VC.swift */; };
+		C28158C51EFBE17F000B7EB3 /* sub2_1VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28158C41EFBE17F000B7EB3 /* sub2_1VC.swift */; };
+		C28158C71EFBE191000B7EB3 /* sub2_2VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28158C61EFBE191000B7EB3 /* sub2_2VC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0D77F61515E1B38A8BB5EE4B /* Pods_tabBarSideMenu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tabBarSideMenu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D9C65C299824B3450F58E9A /* Pods-tabBarSideMenu.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tabBarSideMenu.debug.xcconfig"; path = "Pods/Target Support Files/Pods-tabBarSideMenu/Pods-tabBarSideMenu.debug.xcconfig"; sourceTree = "<group>"; };
+		B02D4A58FCB62AEC9E37000F /* Pods-tabBarSideMenu.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tabBarSideMenu.release.xcconfig"; path = "Pods/Target Support Files/Pods-tabBarSideMenu/Pods-tabBarSideMenu.release.xcconfig"; sourceTree = "<group>"; };
 		C28158A21EFBA338000B7EB3 /* tabBarSideMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tabBarSideMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C28158A51EFBA338000B7EB3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C28158A71EFBA338000B7EB3 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +35,13 @@
 		C28158AE1EFBA338000B7EB3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C28158B11EFBA338000B7EB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C28158B31EFBA338000B7EB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C28158B91EFBA494000B7EB3 /* sideMenuVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = sideMenuVC.swift; sourceTree = "<group>"; };
+		C28158BB1EFBA855000B7EB3 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		C28158BD1EFBA9D5000B7EB3 /* TabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		C28158BF1EFBD81B000B7EB3 /* SubView1VC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubView1VC.swift; sourceTree = "<group>"; };
+		C28158C11EFBD82E000B7EB3 /* SubView2VC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubView2VC.swift; sourceTree = "<group>"; };
+		C28158C41EFBE17F000B7EB3 /* sub2_1VC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = sub2_1VC.swift; sourceTree = "<group>"; };
+		C28158C61EFBE191000B7EB3 /* sub2_2VC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = sub2_2VC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +49,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04D495850507F0B9CEB17398 /* Pods_tabBarSideMenu.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		18B8D9BE7E40B853727F7258 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0D77F61515E1B38A8BB5EE4B /* Pods_tabBarSideMenu.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		21DF6C81961EED3DBDF3466E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9D9C65C299824B3450F58E9A /* Pods-tabBarSideMenu.debug.xcconfig */,
+				B02D4A58FCB62AEC9E37000F /* Pods-tabBarSideMenu.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		C28158991EFBA338000B7EB3 = {
 			isa = PBXGroup;
 			children = (
 				C28158A41EFBA338000B7EB3 /* tabBarSideMenu */,
 				C28158A31EFBA338000B7EB3 /* Products */,
+				21DF6C81961EED3DBDF3466E /* Pods */,
+				18B8D9BE7E40B853727F7258 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,12 +95,19 @@
 			isa = PBXGroup;
 			children = (
 				C28158A51EFBA338000B7EB3 /* AppDelegate.swift */,
+				C28158BB1EFBA855000B7EB3 /* HomeViewController.swift */,
+				C28158BD1EFBA9D5000B7EB3 /* TabBarViewController.swift */,
 				C28158A71EFBA338000B7EB3 /* FirstViewController.swift */,
 				C28158A91EFBA338000B7EB3 /* SecondViewController.swift */,
+				C28158B91EFBA494000B7EB3 /* sideMenuVC.swift */,
 				C28158AB1EFBA338000B7EB3 /* Main.storyboard */,
 				C28158AE1EFBA338000B7EB3 /* Assets.xcassets */,
 				C28158B01EFBA338000B7EB3 /* LaunchScreen.storyboard */,
 				C28158B31EFBA338000B7EB3 /* Info.plist */,
+				C28158BF1EFBD81B000B7EB3 /* SubView1VC.swift */,
+				C28158C11EFBD82E000B7EB3 /* SubView2VC.swift */,
+				C28158C41EFBE17F000B7EB3 /* sub2_1VC.swift */,
+				C28158C61EFBE191000B7EB3 /* sub2_2VC.swift */,
 			);
 			path = tabBarSideMenu;
 			sourceTree = "<group>";
@@ -74,9 +119,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C28158B61EFBA338000B7EB3 /* Build configuration list for PBXNativeTarget "tabBarSideMenu" */;
 			buildPhases = (
+				604EF9D77D6D28880C422167 /* [CP] Check Pods Manifest.lock */,
 				C281589E1EFBA338000B7EB3 /* Sources */,
 				C281589F1EFBA338000B7EB3 /* Frameworks */,
 				C28158A01EFBA338000B7EB3 /* Resources */,
+				8A3BC83DD813FE4377ED2C38 /* [CP] Embed Pods Frameworks */,
+				973D7C038BAF55C0FD938B6E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -135,13 +183,68 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		604EF9D77D6D28880C422167 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8A3BC83DD813FE4377ED2C38 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-tabBarSideMenu/Pods-tabBarSideMenu-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		973D7C038BAF55C0FD938B6E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-tabBarSideMenu/Pods-tabBarSideMenu-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C281589E1EFBA338000B7EB3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C28158BC1EFBA855000B7EB3 /* HomeViewController.swift in Sources */,
 				C28158AA1EFBA338000B7EB3 /* SecondViewController.swift in Sources */,
 				C28158A61EFBA338000B7EB3 /* AppDelegate.swift in Sources */,
+				C28158C71EFBE191000B7EB3 /* sub2_2VC.swift in Sources */,
+				C28158C21EFBD82E000B7EB3 /* SubView2VC.swift in Sources */,
+				C28158BA1EFBA494000B7EB3 /* sideMenuVC.swift in Sources */,
+				C28158C51EFBE17F000B7EB3 /* sub2_1VC.swift in Sources */,
+				C28158BE1EFBA9D5000B7EB3 /* TabBarViewController.swift in Sources */,
+				C28158C01EFBD81B000B7EB3 /* SubView1VC.swift in Sources */,
 				C28158A81EFBA338000B7EB3 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -263,6 +366,7 @@
 		};
 		C28158B71EFBA338000B7EB3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D9C65C299824B3450F58E9A /* Pods-tabBarSideMenu.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = UECYSF7WKH;
@@ -276,6 +380,7 @@
 		};
 		C28158B81EFBA338000B7EB3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B02D4A58FCB62AEC9E37000F /* Pods-tabBarSideMenu.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = UECYSF7WKH;
@@ -306,6 +411,7 @@
 				C28158B81EFBA338000B7EB3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
