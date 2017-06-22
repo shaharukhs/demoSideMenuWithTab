@@ -7,10 +7,9 @@
 //
 
 import UIKit
+import InteractiveSideMenu
 
-class TabBarViewController: UITabBarController {
-
-	var indexNumber : intmax_t = 0
+class TabBarViewController: UITabBarController, SideMenuItemContent {
 	
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -23,6 +22,8 @@ class TabBarViewController: UITabBarController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+	
+	
     
 
     /*

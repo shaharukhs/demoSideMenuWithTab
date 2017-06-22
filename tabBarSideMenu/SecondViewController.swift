@@ -9,7 +9,7 @@
 import UIKit
 import InteractiveSideMenu
 
-class SecondViewController: UIViewController, SideMenuItemContent{
+class SecondViewController: UIViewController {
 
 	override func viewDidLoad() {
 		super.viewDidLoad()
